@@ -5,10 +5,10 @@ public:
         int two=0;
         for(int i=0 ; i <=n ; i++){
             if(i%m == 0){
-                one = one+i;
+                one += i;
             }
             if(i%m != 0){
-                two = two+i;
+                two += i;
             }
         
         }
