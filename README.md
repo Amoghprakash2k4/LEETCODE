@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Hash Table
 |  |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0026-remove-duplicates-from-sorted-array) |
 ## Greedy
 |  |
 | ------- |
