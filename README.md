@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0053-maximum-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0169-majority-element) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 ## Two Pointers
@@ -119,4 +121,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
