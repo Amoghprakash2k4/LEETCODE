@@ -58,10 +58,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0002-add-two-numbers) |
+| [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0002-add-two-numbers) |
+| [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 ## String
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0125-valid-palindrome) |
+| [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0283-move-zeroes) |
@@ -146,4 +149,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
+## Stack
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 <!---LeetCode Topics End-->
