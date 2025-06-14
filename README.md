@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0075-sort-colors) |
@@ -158,5 +160,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
