@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0002-add-two-numbers) |
 | [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0283-move-zeroes) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Greedy
 |  |
