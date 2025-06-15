@@ -17,7 +17,7 @@ public:
         }
 
         prev->next = slow->next;
-        // delete slow;  // Comment this out
+        delete slow;  // Comment this out
         return head;
     }
 };
