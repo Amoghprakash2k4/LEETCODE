@@ -25,7 +25,7 @@ public:
         sort(values.begin(), values.end());
 
         // Step 3: Build a new sorted linked list
-        ListNode* dummy = new ListNode(0);
+        ListNode* dummy = new ListNode;
         ListNode* current = dummy;
 
         for (int val : values) {
