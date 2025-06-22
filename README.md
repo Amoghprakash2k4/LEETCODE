@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0013-roman-to-integer) |
 | [0073-set-matrix-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
+| [0142-linked-list-cycle-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
+| [0142-linked-list-cycle-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0237-delete-node-in-a-linked-list) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0125-valid-palindrome) |
+| [0142-linked-list-cycle-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0189-rotate-array) |
