@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0242-valid-anagram) |
+| [0812-rotate-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1078-remove-outermost-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2032-largest-odd-number-in-string) |
 ## Sliding Window
@@ -241,4 +242,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
