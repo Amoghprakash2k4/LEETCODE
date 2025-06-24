@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1078-remove-outermost-parentheses) |
 ## Sliding Window
 |  |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0148-sort-list) |
+| [0151-reverse-words-in-a-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0189-rotate-array) |
