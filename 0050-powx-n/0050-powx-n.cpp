@@ -8,6 +8,7 @@ public:
         }
 
         double result = 1;
+        
         while (N) {
             if (N % 2 == 1) result *= x;
             x *= x;
