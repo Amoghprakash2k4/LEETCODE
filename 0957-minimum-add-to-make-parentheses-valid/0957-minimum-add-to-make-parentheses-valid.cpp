@@ -1,21 +1,18 @@
 class Solution {
 public:
     int minAddToMakeValid(string s) {
-        int open = 0;       // count of unmatched '('
-        int insertions = 0; // count of insertions needed for ')'
-
+        int open = 0;       
+        int insertions = 0;
         for(char c : s){
             if(c == '(') {
-                open++; // open a new bracket
+                open++; 
             } else if(c == ')') {
                 if(open > 0)
-                    open--; // match with a previous '('
+                    open--;
                 else
-                    insertions++; // need to insert a '(' to match this ')'
+                    insertions++;
             }
         }
-
-        // total insertions = unmatched '(' + unmatched ')'
         return insertions + open;
     }
 };
