@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0812-rotate-string) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2032-largest-odd-number-in-string) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0011-container-with-most-water) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
 |  |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0234-palindrome-linked-list) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Matrix
