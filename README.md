@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
+| [0686-repeated-string-match](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1078-remove-outermost-parentheses) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0686-repeated-string-match](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0812-rotate-string) |
 ## Design
 |  |
