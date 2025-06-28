@@ -11,27 +11,16 @@
  */
 class Solution {
 public:
+    void dfs(TreeNode* node, vector<int>& arr) {
+        if (!node) return;
+        arr.push_back(node->val);
+        dfs(node->left, arr);
+        dfs(node->right, arr);
+    }
+
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> arr;
-        if (root == nullptr) {
-            return arr;
-        }
-
-        // Preorder: visit root first
-        arr.push_back(root->val);
-
-        // Traverse left subtree and collect values
-        vector<int> left = preorderTraversal(root->left);
-
-        // Traverse right subtree and collect values
-        vector<int> right = preorderTraversal(root->right);
-
-        // Append left subtree values
-        arr.insert(arr.end(), left.begin(), left.end());
-
-        // Append right subtree values
-        arr.insert(arr.end(), right.begin(), right.end());
-
+        dfs(root, arr);
         return arr;
     }
 };
