@@ -1,8 +1,8 @@
 class LRUCache {
 private:
     int capacity;
-    list<pair<int, int>> cache; // stores (key, value)
-    unordered_map<int, list<pair<int, int>>::iterator> map; // key -> iterator in list
+    list<pair<int, int>> cache; // {key, value}
+    unordered_map<int, list<pair<int, int>>::iterator> map;
 
 public:
     LRUCache(int capacity) {
@@ -10,43 +10,36 @@ public:
     }
 
     int get(int key) {
-        // If not found, return -1
-        if (map.find(key) == map.end()) {
-            return -1;
+        auto it = map.find(key);
+        if (it == map.end()) {
+            return -1; // not found
         }
-
-        // Move this node to the front (most recently used)
-        auto it = map[key];
-        int value = it->second;
-
-        cache.erase(it);
-        cache.push_front({key, value});
-        map[key] = cache.begin();
-
-        return value;
+        // Move the accessed node to the front
+        cache.splice(cache.begin(), cache, it->second);
+        return it->second->second;
     }
 
     void put(int key, int value) {
-        // If key already exists, remove old node
-        if (map.find(key) != map.end()) {
-            cache.erase(map[key]);
-        }
-
-        // Insert new node at front
-        cache.push_front({key, value});
-        map[key] = cache.begin();
-
-        // If over capacity, remove least recently used (last)
-        if (cache.size() > capacity) {
-            auto last = cache.end();
-            last--;
-            int keyToRemove = last->first;
-            cache.pop_back();
-            map.erase(keyToRemove);
+        auto it = map.find(key);
+        if (it != map.end()) {
+            // Update value
+            it->second->second = value;
+            // Move to front
+            cache.splice(cache.begin(), cache, it->second);
+        } else {
+            // Insert new node
+            cache.emplace_front(key, value);
+            map[key] = cache.begin();
+            if (cache.size() > capacity) {
+                // Remove least recently used
+                auto last = cache.end();
+                last--;
+                map.erase(last->first);
+                cache.pop_back();
+            }
         }
     }
 };
-
 
 
 /**
