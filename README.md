@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0142-linked-list-cycle-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0229-majority-element-ii) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0061-rotate-list) |
 | [0142-linked-list-cycle-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0206-reverse-linked-list) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0155-min-stack) |
 ## Monotonic Stack
 |  |
@@ -309,4 +312,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0144-binary-tree-preorder-traversal) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
