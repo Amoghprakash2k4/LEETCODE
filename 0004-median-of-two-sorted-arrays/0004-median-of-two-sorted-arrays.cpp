@@ -4,30 +4,36 @@ using namespace std;
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int m = nums1.size(), n = nums2.size();
-        vector<int> merged;
-        int i = 0, j = 0;
+        if (nums1.size() > nums2.size()) 
+            return findMedianSortedArrays(nums2, nums1);  // Ensure nums1 is smaller
 
-        // Merge the two sorted arrays
-        while (i < m && j < n) {
-            if (nums1[i] < nums2[j]) {
-                merged.push_back(nums1[i++]);
+        int x = nums1.size();
+        int y = nums2.size();
+        int left = 0, right = x;
+
+        while (left <= right) {
+            int partitionX = left + (right - left) / 2;
+            int partitionY = (x + y + 1) / 2 - partitionX;
+
+            int maxLeftX = (partitionX == 0) ? INT_MIN : nums1[partitionX - 1];
+            int minRightX = (partitionX == x) ? INT_MAX : nums1[partitionX];
+
+            int maxLeftY = (partitionY == 0) ? INT_MIN : nums2[partitionY - 1];
+            int minRightY = (partitionY == y) ? INT_MAX : nums2[partitionY];
+
+            if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
+                if ((x + y) % 2 == 0) {
+                    return (max(maxLeftX, maxLeftY) + min(minRightX, minRightY)) / 2.0;
+                } else {
+                    return max(maxLeftX, maxLeftY);
+                }
+            } else if (maxLeftX > minRightY) {
+                right = partitionX - 1;  // Move left
             } else {
-                merged.push_back(nums2[j++]);
+                left = partitionX + 1;  // Move right
             }
         }
 
-        // Append remaining elements
-        while (i < m) merged.push_back(nums1[i++]);
-        while (j < n) merged.push_back(nums2[j++]);
-
-        int total = m + n;
-        if (total % 2 == 1) {
-            // Odd length, return middle element
-            return merged[total / 2];
-        } else {
-            // Even length, return average of two middle elements
-            return (merged[total / 2 - 1] + merged[total / 2]) / 2.0;
-        }
+        throw invalid_argument("Input arrays are not sorted properly.");
     }
 };
