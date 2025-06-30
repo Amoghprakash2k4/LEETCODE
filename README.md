@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0229-majority-element-ii) |
+| [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 ## Divide and Conquer
 |  |
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
+| [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 ## Bucket Sort
@@ -328,4 +331,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0146-lru-cache) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
