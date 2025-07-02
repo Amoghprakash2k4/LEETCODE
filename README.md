@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
 | [2032-largest-odd-number-in-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2032-largest-odd-number-in-string) |
+| [2050-count-good-numbers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2050-count-good-numbers) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 ## Binary Search
 |  |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2050-count-good-numbers) |
 ## String
 |  |
 | ------- |
