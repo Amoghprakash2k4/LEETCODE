@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0792-binary-search) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
+| [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2227-sum-of-subarray-ranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 ## Linked List
 |  |
 | ------- |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
+| [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 ## Divide and Conquer
 |  |
@@ -299,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 ## String Matching
 |  |
