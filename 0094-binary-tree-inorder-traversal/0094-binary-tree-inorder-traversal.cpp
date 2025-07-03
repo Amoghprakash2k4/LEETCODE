@@ -11,16 +11,39 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode* node, vector<int>& arr){
-        if (!node) return;
-        dfs(node->left, arr);
-        arr.push_back(node->val);
+    // void dfs(TreeNode* node, vector<int>& arr){
+    //     if (!node) return;
+    //     dfs(node->left, arr);
+    //     arr.push_back(node->val);
         
-        dfs(node->right, arr);
-    }
+    //     dfs(node->right, arr);
+    // }
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> arr;
-        dfs(root , arr);
-        return arr;
+        // vector<int> arr;
+        // dfs(root , arr);
+        // return arr;
+        
+    vector<int> result;
+    stack<TreeNode*> st;
+    TreeNode* curr = root;
+
+    while (curr != nullptr || !st.empty()) {
+        // Go all the way left
+        while (curr != nullptr) {
+            st.push(curr);
+            curr = curr->left;
+        }
+
+        // Process node
+        curr = st.top();
+        st.pop();
+        result.push_back(curr->val);
+
+        // Go to right subtree
+        curr = curr->right;
     }
-};
+
+    return result;
+    }   
+
+    };
