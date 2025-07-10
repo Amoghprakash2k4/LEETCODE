@@ -11,21 +11,23 @@
  */
 class Solution {
 public:
-    int height(TreeNode* node) {
+    // Returns -1 if unbalanced, otherwise height
+    int dfs(TreeNode* node) {
         if (!node) return 0;
-        return 1 + max(height(node->left), height(node->right));
+
+        int left = dfs(node->left);
+        if (left == -1) return -1;
+
+        int right = dfs(node->right);
+        if (right == -1) return -1;
+
+        if (abs(left - right) > 1)
+            return -1;
+
+        return 1 + max(left, right);
     }
 
     bool isBalanced(TreeNode* root) {
-        if (!root) return true;
-
-        int leftHeight = height(root->left);
-        int rightHeight = height(root->right);
-
-        if (abs(leftHeight - rightHeight) > 1)
-            return false;
-
-        // Recursively check left and right subtrees
-        return isBalanced(root->left) && isBalanced(root->right);
+        return dfs(root) != -1;
     }
 };
