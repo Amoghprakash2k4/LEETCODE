@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0328-odd-even-linked-list) |
+| [0355-design-twitter](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0355-design-twitter) |
 | [0908-middle-of-the-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 ## Bucket Sort
@@ -346,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0155-min-stack) |
+| [0355-design-twitter](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0355-design-twitter) |
 ## Monotonic Stack
 |  |
 | ------- |
