@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2227-sum-of-subarray-ranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2227-sum-of-subarray-ranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2227-sum-of-subarray-ranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 ## Tree
 |  |
@@ -391,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -434,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -476,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Data Stream
 |  |
 | ------- |
