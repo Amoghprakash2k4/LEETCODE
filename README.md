@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0222-count-complete-tree-nodes) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0792-binary-search) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0204-count-primes) |
 | [0229-majority-element-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0239-sliding-window-maximum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0169-majority-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 ## Two Pointers
 |  |
@@ -344,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0074-search-a-2d-matrix) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 ## Merge Sort
 |  |
 | ------- |
