@@ -3,22 +3,15 @@ public:
     int maxScore(vector<int>& cardPoints, int k) {
         int n = cardPoints.size();
         int total = 0;
-        for (int point : cardPoints) total += point;
-
-        if (k == n) return total;
-
-        int windowSize = n - k;
-        int currSum = 0;
-        for (int i = 0; i < windowSize; ++i) {
-            currSum += cardPoints[i];
+        for(int point : cardPoints) total+=point;
+        int windowsize = n - k;
+        int currsum= 0;
+        for(int i = 0; i<windowsize ; i++) currsum+=cardPoints[i];
+        int mini = currsum;
+        for(int i = windowsize; i<n; ++i){
+            currsum+=cardPoints[i] - cardPoints[i - windowsize];
+            mini = min(mini, currsum);
         }
-
-        int minSubarraySum = currSum;
-        for (int i = windowSize; i < n; ++i) {
-            currSum += cardPoints[i] - cardPoints[i - windowSize];
-            minSubarraySum = min(minSubarraySum, currSum);
-        }
-
-        return total - minSubarraySum;
+        return total-mini;
     }
 };
