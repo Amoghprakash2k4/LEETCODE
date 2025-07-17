@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0792-binary-search) |
 | [0876-hand-of-straights](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
