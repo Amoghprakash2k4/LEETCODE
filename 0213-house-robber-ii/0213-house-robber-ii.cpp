@@ -2,13 +2,13 @@ class Solution {
 public:
     // Helper function to solve House Robber I
     int robLinear(vector<int>& nums, int start, int end) {
-        int prev = 0, curr = 0;
+        int prev2 = 0, prev1 = 0;
         for (int i = start; i <= end; ++i) {
-            int temp = max(curr, prev + nums[i]);
-            prev = curr;
-            curr = temp;
+            int curr = max(prev1, prev2 + nums[i]);
+            prev2 = prev1;
+            prev1 = curr;
         }
-        return curr;
+        return prev1;
     }
 
     int rob(vector<int>& nums) {
