@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
+| [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
 ## Merge Sort
 |  |
 | ------- |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
 ## Memoization
 |  |
 | ------- |
