@@ -21,9 +21,9 @@ public:
             prev= current;
             current=next;
         }
-        ListNode* next = current->next;
+        // ListNode* next = current->next;
         current->next = prev;
-        prev= current;
+        // prev= current;
         return current;
     }
 };
