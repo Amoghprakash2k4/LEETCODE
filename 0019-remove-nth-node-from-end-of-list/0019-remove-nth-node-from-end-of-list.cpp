@@ -29,6 +29,7 @@ public:
         ListNode* prev = nullptr;
         ListNode* next1 = curr->next;
         while(count <= target){
+            // ListNode* next1 = curr->next;
             prev = curr;
             curr = next1;
             next1 = next1->next;
