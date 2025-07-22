@@ -11,34 +11,40 @@
  */
 class Solution {
 public:
-    TreeNode* findMin(TreeNode* node) {
-        while (node->left) node = node->left;
-        return node;
-    }
-    
-    TreeNode* deleteNode(TreeNode* root, int key) {
-        if (!root) return nullptr;
 
-        if (key < root->val) {
-            root->left = deleteNode(root->left, key);
-        } else if (key > root->val) {
-            root->right = deleteNode(root->right, key);
+TreeNode* findMin(TreeNode* node) {
+    // Find the leftmost (minimum value) node in a BST
+    while (node->left) node = node->left;
+    return node;
+}
+
+TreeNode* deleteNode(TreeNode* root, int key) {
+    if (!root) return nullptr; // Base case: empty tree
+
+    // Traverse to find the node with key
+    if (key < root->val)
+        root->left = deleteNode(root->left, key);
+    else if (key > root->val)
+        root->right = deleteNode(root->right, key);
+    else {
+        // Node found
+        if (!root->left) {
+            // Node has only right child or no child
+            TreeNode* rightChild = root->right;
+            delete root;
+            return rightChild;
+        } else if (!root->right) {
+            // Node has only left child
+            TreeNode* leftChild = root->left;
+            delete root;
+            return leftChild;
         } else {
-            // Found the node to delete
-            if (!root->left) {
-                TreeNode* temp = root->right;
-                delete root;
-                return temp;
-            } else if (!root->right) {
-                TreeNode* temp = root->left;
-                delete root;
-                return temp;
-            } else {
-                TreeNode* succ = findMin(root->right);
-                root->val = succ->val;
-                root->right = deleteNode(root->right, succ->val);
-            }
+            // Node has two children: replace with inorder successor
+            TreeNode* minNode = findMin(root->right);
+            root->val = minNode->val;
+            root->right = deleteNode(root->right, minNode->val);
         }
-        return root;
     }
+    return root;
+}
 };
