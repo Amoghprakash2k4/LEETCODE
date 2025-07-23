@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0055-jump-game) |
@@ -516,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0022-generate-parentheses) |
+| [0051-n-queens](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0051-n-queens) |
 ## Breadth-First Search
 |  |
 | ------- |
