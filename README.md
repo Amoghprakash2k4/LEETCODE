@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -386,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Merge Sort
 |  |
 | ------- |
@@ -535,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Memoization
 |  |
 | ------- |
