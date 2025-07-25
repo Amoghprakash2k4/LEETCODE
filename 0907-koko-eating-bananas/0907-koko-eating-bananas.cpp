@@ -6,7 +6,7 @@ public:
         int result = right;
 
         while (left <= right) {
-            int mid = left + (right - left) / 2;
+            int mid = (left +right) / 2;
             long long hours = 0;
 
             for (int pile : piles) {
