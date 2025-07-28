@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Linked List
 |  |
 | ------- |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1250-longest-common-subsequence) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2032-largest-odd-number-in-string) |
 ## Sliding Window
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Divide and Conquer
