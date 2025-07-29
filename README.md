@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
+| [0682-baseball-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0682-baseball-game) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0792-binary-search) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0054-spiral-matrix) |
+| [0682-baseball-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Union Find
@@ -384,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0678-valid-parenthesis-string) |
+| [0682-baseball-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
