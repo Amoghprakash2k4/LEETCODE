@@ -1,9 +1,10 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        vector<char> stack;
+        string stack = "";
 
         for (char digit : num) {
+            // Remove from stack while k > 0 and last digit > current
             while (!stack.empty() && k > 0 && stack.back() > digit) {
                 stack.pop_back();
                 k--;
@@ -11,21 +12,17 @@ public:
             stack.push_back(digit);
         }
 
-        // If k still > 0, remove from the end
+        // Remove remaining digits from the end if k > 0
         while (k > 0 && !stack.empty()) {
             stack.pop_back();
             k--;
         }
 
-        // Build the result string
-        string result;
-        bool leadingZero = true;
-        for (char digit : stack) {
-            if (leadingZero && digit == '0') continue;
-            leadingZero = false;
-            result += digit;
-        }
+        // Remove leading zeros
+        int i = 0;
+        while (i < stack.size() && stack[i] == '0') i++;
 
+        string result = stack.substr(i);
         return result.empty() ? "0" : result;
     }
 };
