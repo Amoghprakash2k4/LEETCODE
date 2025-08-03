@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0055-jump-game) |
+| [0059-spiral-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0073-set-matrix-zeroes) |
@@ -364,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0059-spiral-matrix-ii) |
 | [0682-baseball-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -403,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0074-search-a-2d-matrix) |
