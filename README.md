@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
+| [0900-reordered-power-of-2](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2032-largest-odd-number-in-string) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-hand-of-straights](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0876-hand-of-straights) |
+| [0900-reordered-power-of-2](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
@@ -320,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0658-find-k-closest-elements) |
 | [0876-hand-of-straights](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0876-hand-of-straights) |
+| [0900-reordered-power-of-2](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Bit Manipulation
@@ -354,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
+| [0900-reordered-power-of-2](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0900-reordered-power-of-2) |
 ## Quickselect
 |  |
 | ------- |
@@ -615,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0204-count-primes) |
+| [0900-reordered-power-of-2](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0900-reordered-power-of-2) |
 ## Number Theory
 |  |
 | ------- |
