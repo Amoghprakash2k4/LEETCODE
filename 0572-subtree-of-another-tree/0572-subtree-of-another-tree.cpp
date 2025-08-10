@@ -13,7 +13,7 @@ class Solution {
 public:
     bool check(TreeNode* node, TreeNode* subRoot){
         if(!node && !subRoot) return true;
-        if(!node || !subRoot) return false;
+        if(!node&&subRoot || !subRoot&&node) return false;
         if(node->val != subRoot->val) return false;
 
         return check(node->left, subRoot->left) && check(node->right, subRoot->right);
