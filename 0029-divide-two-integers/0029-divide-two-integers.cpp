@@ -1,36 +1,30 @@
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-        // Handle overflow: INT_MIN / -1 would overflow to INT_MAX+1
+        // Handle overflow case
         if (dividend == INT_MIN && divisor == -1) {
             return INT_MAX;
         }
+        if (dividend == INT_MAX && divisor == -1) {
+            return INT_MIN+1;
+        }
+        // if(divisor == -1) return -dividend;
+        // Work with long long to handle INT_MIN safely
+        long long a = abs((long long)dividend);
+        long long b = abs((long long)divisor);
+        long long result = 0;
 
-        // Convert both numbers to long long to handle abs safely
-        long long dvd = labs(dividend);
-        long long dvs = labs(divisor);
-        long long ans = 0;
-
-        // Keep subtracting divisor multiples from dividend
-        while (dvd >= dvs) {
-            long long temp = dvs;
-            long long multiple = 1;
-
-            // Double temp until it is just less than dvd
-            while ((temp << 1) <= dvd) {
-                temp <<= 1;
-                multiple <<= 1;
-            }
-
-            dvd -= temp;        // subtract the largest found multiple
-            ans += multiple;    // add that multiple to answer
+        // Keep subtracting divisor until dividend is smaller
+        while (a >= b) {
+            a -= b;
+            result++;
         }
 
         // Apply sign
-        if ((dividend < 0) ^ (divisor < 0)) { // XOR: true if only one is negative
-            ans = -ans;
+        if ((dividend < 0) ^ (divisor < 0)) {
+            result = -result;
         }
 
-        return (int)ans;
+        return (int)result;
     }
 };
