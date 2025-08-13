@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
+| [0326-power-of-three](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0326-power-of-three) |
 | [0900-reordered-power-of-2](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0234-palindrome-linked-list) |
+| [0326-power-of-three](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2050-count-good-numbers) |
 ## String
