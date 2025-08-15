@@ -1,8 +1,17 @@
 class Solution {
 public:
+    int dp(int n, vector<int>& dparr) {
+        if (n <= 1) return n;
+
+        if (dparr[n] != -1)
+            return dparr[n];
+
+        return dparr[n] = dp(n - 1, dparr) + dp(n - 2, dparr);
+    }
+
     int fib(int n) {
-        if (n == 0) return 0;
-        if (n == 1) return 1;
-        return fib(n-1) + fib(n-2);
+        vector<int> dparr(n + 1, -1); // initialize with -1
+        return dp(n, dparr);
     }
 };
+
