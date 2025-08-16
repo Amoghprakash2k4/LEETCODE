@@ -4,14 +4,26 @@ public:
         int m = grid.size();           // Total number of rows
         int n = grid[0].size();        // Total number of columns
 
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < n; ++j) {
-                if (i == 0 && j == 0) continue;  // Start cell, do nothing
-                else if (i == 0) grid[i][j] += grid[i][j - 1];         // Only from left
-                else if (j == 0) grid[i][j] += grid[i - 1][j];         // Only from top
-                else grid[i][j] += min(grid[i - 1][j], grid[i][j - 1]); // Choose min(top, left)
+        vector<int> prev(n,0);
+        for(int i=0; i<m; i++){
+            vector<int> curr(n,0);
+            for(int j=0; j<n; j++){
+                if(i==0 && j==0) curr[j] = grid[i][j] ;
+                else{
+                    int up = grid[i][j];
+                    if(i > 0) up += prev[j];
+                    else up+=1e9;
+
+                    int left = grid[i][j];
+                    if(j > 0) left += curr[j-1];
+                    else left += 1e9;
+                                    
+                    curr[j] = min(up, left);
+
+                }
             }
+            prev = curr;
         }
-        return grid[m - 1][n - 1]; // Bottom-right cell contains the min path sum
+        return prev[n-1];
     }
 };
