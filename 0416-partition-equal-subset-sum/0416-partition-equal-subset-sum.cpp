@@ -1,29 +1,31 @@
 class Solution {
 public:
 bool subsetSumToK(int n, int k, vector<int> &arr) {
-    // Step 1: Create DP table (n x (k+1)), initialized with false
-    vector<vector<bool>> dp(n, vector<bool>(k + 1, false));
-
-    // Step 2: Base Case - sum = 0 is always possible
-    for (int i = 0; i < n; i++) dp[i][0] = true;
+    // vector<vector<bool>> dp(n, vector<bool>(k + 1, false));
+    vector<bool> prev(k+1,0), curr(k+1,0);
+    
+    prev[0]=curr[0] = true;
+     if (arr[0] <= k) prev[arr[0]] = true;
 
     // Step 3: Base Case - with only the first element
-    if (arr[0] <= k) dp[0][arr[0]] = true;
+    // if (arr[0] <= k) dp[0][arr[0]] = true;
 
     // Step 4: Fill the DP table
     for (int ind = 1; ind < n; ind++) {
+        curr[0] = true;
         for (int target = 1; target <= k; target++) {
-            bool notTake = dp[ind - 1][target];
+            bool notTake = prev[target];
             bool take = false;
             if (arr[ind] <= target) 
-                take = dp[ind - 1][target - arr[ind]];
+                take =prev[target - arr[ind]];
             
-            dp[ind][target] = take || notTake;
+            curr[target] = take || notTake;
         }
+        prev = curr;
     }
 
     // Step 5: Final answer
-    return dp[n - 1][k];
+    return prev[k];
 }
     bool canPartition(vector<int>& nums) {
         int totalsum=0;
