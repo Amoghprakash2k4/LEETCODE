@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1646-kth-missing-positive-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3790-fruits-into-baskets-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 ## Array
 |  |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2227-sum-of-subarray-ranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2529-range-product-queries-of-powers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2529-range-product-queries-of-powers) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0908-middle-of-the-linked-list) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Greedy
@@ -342,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0268-missing-number) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2529-range-product-queries-of-powers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2529-range-product-queries-of-powers) |
 ## Heap (Priority Queue)
@@ -398,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1250-longest-common-subsequence) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Simulation
 |  |
 | ------- |
@@ -661,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3790-fruits-into-baskets-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 ## Interactive
 |  |
@@ -685,4 +691,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1801-average-time-of-process-per-machine](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1801-average-time-of-process-per-machine) |
 | [1827-invalid-tweets](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1908-recyclable-and-low-fat-products) |
+## Bitmask
+|  |
+| ------- |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 <!---LeetCode Topics End-->
