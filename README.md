@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0242-valid-anagram) |
 | [0402-remove-k-digits](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0402-remove-k-digits) |
 | [0451-sort-characters-by-frequency](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
+| [0516-longest-palindromic-subsequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0516-longest-palindromic-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0812-rotate-string) |
@@ -404,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
