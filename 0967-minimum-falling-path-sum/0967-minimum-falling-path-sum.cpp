@@ -4,6 +4,7 @@ public:
         int m = matrix[0].size();
         int n = matrix.size();
         vector<int> prev(m,0);
+        // first row to be copied exactly as it is
         for(int i =0; i<m ; i++) prev[i] = matrix[0][i];
 
         for(int i=1 ; i<n ; i++){
