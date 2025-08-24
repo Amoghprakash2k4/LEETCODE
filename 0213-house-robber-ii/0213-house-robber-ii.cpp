@@ -15,7 +15,7 @@ public:
         int n = nums.size();
         if (n == 0) return 0;
         if (n == 1) return nums[0];
-
+        if (n == 2) return max(nums[0],nums[1]);
         // Rob from 0 to n-2, or from 1 to n-1
         return max(robLinear(nums, 0, n - 2), robLinear(nums, 1, n - 1));
     }
