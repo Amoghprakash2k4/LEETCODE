@@ -10,7 +10,7 @@ public:
 
         for(int ind = 1 ; ind < coins.size(); ind++){
             for(int t = 0 ; t<= amount ; t++){
-                int nottake = 0+prev[t];
+                int nottake =prev[t];
                 int take = INT_MAX;
                 // if(coins[ind] <= t) take = 1 + curr[t-coins[ind]];
                  if (coins[ind] <= t && curr[t - coins[ind]] != INT_MAX) 
