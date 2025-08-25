@@ -5,7 +5,7 @@ public:
         int maxprofit=0;
         for(int i=0; i< prices.size(); i++){
             if(prices[i] <= minprize){
-                minprize= prices[i];
+                minprize = prices[i];
             }
             if(prices[i]-minprize > maxprofit){
                 maxprofit =prices[i]-minprize;
