@@ -5,7 +5,7 @@ public:
         if (n == 0 || k == 0) return 0;
 
         vector<vector<int>> dp(n+1, vector<int>(2*k+1, 0));
-
+// basically the logic used here is no need to keep track of buy and cap separately , intead keep one variable transaction and whenever the number is even it is buy, like 0,2. And when it is odd it is sell.
         for (int ind = n-1; ind >= 0; ind--) {
             for (int transaction = 2*k-1; transaction >= 0; transaction--) {
                 if (transaction % 2 == 0) { // buy
@@ -17,6 +17,6 @@ public:
                 }
             }
         }
-        return dp[0][0];   // ✅ inside the function now
+        return dp[0][0];   
     }
 };
