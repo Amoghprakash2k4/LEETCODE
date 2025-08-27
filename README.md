@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0658-find-k-closest-elements) |
 | [0682-baseball-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0682-baseball-game) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0792-binary-search) |
@@ -327,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0876-hand-of-straights](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -430,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1013-fibonacci-number) |
