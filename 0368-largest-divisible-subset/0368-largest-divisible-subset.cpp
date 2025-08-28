@@ -1,38 +1,42 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
 class Solution {
 public:
-    vector<int> largestDivisibleSubset(vector<int>& nums) {
-        int n = nums.size();
-        if(n == 0) return {};
+    std::vector<int> largestDivisibleSubset(std::vector<int>& nums) {
+        // Handle the edge case of an empty input vector.
+        if (nums.empty()) {
+            return {};
+        }
 
-        sort(nums.begin(), nums.end()); // Step 1: sort the array
+        // 1. Sort the array. This is crucial as it allows us to build subsets
+        // by only checking predecessors.
+        std::sort(nums.begin(), nums.end());
 
-        vector<int> dp(n, 1), parent(n); // dp[i] = size of subset ending at i
-        int maxi = 1, lastIndex = 0;
+        // 2. dp[i] will store the largest divisible subset ending with nums[i].
+        std::vector<std::vector<int>> dp(nums.size());
 
-        // Step 2: DP to find longest divisible subset
-        for(int i = 0; i < n; i++) {
-            parent[i] = i; // initialize parent as itself
-            for(int j = 0; j < i; j++) {
-                if(nums[i] % nums[j] == 0 && dp[j] + 1 > dp[i]) {
-                    dp[i] = dp[j] + 1;
-                    parent[i] = j;
+        for (int i = 0; i < nums.size(); ++i) {
+            // Find the longest preceding subset that nums[i] can extend.
+            std::vector<int> longest_prefix;
+            for (int j = 0; j < i; ++j) {
+                if (nums[i] % nums[j] == 0 && dp[j].size() > longest_prefix.size()) {
+                    longest_prefix = dp[j];
                 }
             }
-            if(dp[i] > maxi) {
-                maxi = dp[i];
-                lastIndex = i;
+            // Add the current number to the best prefix found.
+            longest_prefix.push_back(nums[i]);
+            dp[i] = longest_prefix;
+        }
+
+        // 3. Find and return the largest subset from all the generated ones.
+        std::vector<int> result;
+        for (const auto& subset : dp) {
+            if (subset.size() > result.size()) {
+                result = subset;
             }
         }
-
-        // Step 3: Reconstruct subset
-        vector<int> result;
-        result.push_back(nums[lastIndex]);
-        while(parent[lastIndex] != lastIndex) {
-            lastIndex = parent[lastIndex];
-            result.push_back(nums[lastIndex]);
-        }
-        reverse(result.begin(), result.end());
-
         return result;
     }
 };
