@@ -2,35 +2,37 @@ class Solution {
 public:
     vector<int> largestDivisibleSubset(vector<int>& nums) {
         int n = nums.size();
-        if (n == 0) return {};
-        
-        sort(nums.begin(), nums.end());
-        
-        vector<int> dp(n, 1);         // dp[i] = length of LDS ending at i
-        vector<int> parent(n, -1);    // to reconstruct path
-        int maxLen = 1, lastIndex = 0;
-        
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (nums[i] % nums[j] == 0 && dp[j] + 1 > dp[i]) {
+        if(n == 0) return {};
+
+        sort(nums.begin(), nums.end()); // Step 1: sort the array
+
+        vector<int> dp(n, 1), parent(n); // dp[i] = size of subset ending at i
+        int maxi = 1, lastIndex = 0;
+
+        // Step 2: DP to find longest divisible subset
+        for(int i = 0; i < n; i++) {
+            parent[i] = i; // initialize parent as itself
+            for(int j = 0; j < i; j++) {
+                if(nums[i] % nums[j] == 0 && dp[j] + 1 > dp[i]) {
                     dp[i] = dp[j] + 1;
                     parent[i] = j;
                 }
             }
-            if (dp[i] > maxLen) {
-                maxLen = dp[i];
+            if(dp[i] > maxi) {
+                maxi = dp[i];
                 lastIndex = i;
             }
         }
-        
-        // reconstruct subset
-        vector<int> ans;
-        while (lastIndex != -1) {
-            ans.push_back(nums[lastIndex]);
+
+        // Step 3: Reconstruct subset
+        vector<int> result;
+        result.push_back(nums[lastIndex]);
+        while(parent[lastIndex] != lastIndex) {
             lastIndex = parent[lastIndex];
+            result.push_back(nums[lastIndex]);
         }
-        
-        reverse(ans.begin(), ans.end());
-        return ans;
+        reverse(result.begin(), result.end());
+
+        return result;
     }
 };
