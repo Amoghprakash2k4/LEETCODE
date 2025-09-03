@@ -12,7 +12,9 @@ public:
         grid[0][0] = 1; // use grid to track visited and path length
 
         while (!q.empty()) {
-            auto [x, y] = q.front(); q.pop();
+            int x = q.front().first;
+            int y = q.front().second;
+            q.pop();
             int dist = grid[x][y];
             if (x == n-1 && y == n-1) return dist;
             for (auto& d : dirs) {
