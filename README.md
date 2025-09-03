@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1185-find-in-mountain-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1185-find-in-mountain-array) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1646-kth-missing-positive-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3790-fruits-into-baskets-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1628-count-submatrices-with-all-ones) |
 | [1646-kth-missing-positive-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -405,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -492,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 ## Stack
 |  |
 | ------- |
@@ -542,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1628-count-submatrices-with-all-ones) |
+| [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 ## Merge Sort
 |  |
 | ------- |
@@ -647,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -723,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 ## Memoization
 |  |
 | ------- |
