@@ -6,17 +6,17 @@ public:
 
         vector<int> prev(n + 1, 0), curr(n + 1, 0);
 
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (text1[i - 1] == text2[j - 1]) {
-                    curr[j] = prev[j - 1] + 1;   
+        // iterate backwards over text1
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                if (text1[i] == text2[j]) {
+                    curr[j] = 1 + prev[j + 1];
                 } else {
-                    curr[j] = max(prev[j], curr[j - 1]); // mismatch → max(top, left)
+                    curr[j] = max(prev[j], curr[j + 1]);
                 }
             }
-            prev = curr; // move current row to previous row
+            prev = curr; // move current row into previous
         }
-
-        return prev[n];
+        return prev[0];
     }
 };
