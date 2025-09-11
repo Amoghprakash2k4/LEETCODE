@@ -1,12 +1,12 @@
 // class Solution {
 // public:
-//     bool ispalindrome(int i, int j, string s){
-//         while(i < j){
-//             if(s[i] != s[j]) return false;
-//             i++; j--;
-//         }
-//         return true;
-//     }
+    // bool ispalindrome(int i, int j, string s){
+    //     while(i < j){
+    //         if(s[i] != s[j]) return false;
+    //         i++; j--;
+    //     }
+    //     return true;
+    // }
 
 //     // int f(int i, int n, string s, vector<int> &dp){
 //     //     if(i==n) return 0;
@@ -51,7 +51,6 @@ class Solution {
 public:
     int minCut(string s) {
         int n = s.size();
-
         // Step 1: Precompute palindrome table
         vector<vector<bool>> isPal(n, vector<bool>(n, false));
         for (int len = 1; len <= n; len++) {
