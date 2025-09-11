@@ -1,83 +1,119 @@
-// class Solution {
-// public:
-    // bool ispalindrome(int i, int j, string s){
-    //     while(i < j){
-    //         if(s[i] != s[j]) return false;
-    //         i++; j--;
-    //     }
-    //     return true;
-    // }
-
-//     // int f(int i, int n, string s, vector<int> &dp){
-//     //     if(i==n) return 0;
-//     //     int mincost = INT_MAX;
-//     //     if(dp[i] != -1) return dp[i];
-//     //     for(int j=i ; j <n ; j++){
-//     //     if(ispalindrome(i, j, s)){
-//     //         int cost = 1 + f(j+1, n, s, dp);
-//     //         mincost = min(mincost, cost);
+// // class Solution {
+// // public:
+//     // bool ispalindrome(int i, int j, string s){
+//     //     while(i < j){
+//     //         if(s[i] != s[j]) return false;
+//     //         i++; j--;
 //     //     }
-        
-//     //     }
-//     //     return dp[i] = mincost;
-
+//     //     return true;
 //     // }
 
+// //     // int f(int i, int n, string s, vector<int> &dp){
+// //     //     if(i==n) return 0;
+// //     //     int mincost = INT_MAX;
+// //     //     if(dp[i] != -1) return dp[i];
+// //     //     for(int j=i ; j <n ; j++){
+// //     //     if(ispalindrome(i, j, s)){
+// //     //         int cost = 1 + f(j+1, n, s, dp);
+// //     //         mincost = min(mincost, cost);
+// //     //     }
+        
+// //     //     }
+// //     //     return dp[i] = mincost;
 
+// //     // }
+
+
+
+// //     int minCut(string s) {
+// //       int n = s.size();
+// //       vector<int> dp(n+1, 0);
+// //         dp[n]= 0;
+// //         for(int i=n-1 ; i>=0 ; i--){
+// //         int mincost = INT_MAX;
+// //         // if(dp[i] != -1) return dp[i];
+// //         for(int j=i ; j <n ; j++){
+// //                 if(ispalindrome(i, j, s)){
+// //                     int cost = 1 + dp[j+1];
+// //                     mincost = min(mincost, cost);
+// //                 }
+// //             dp[i] = mincost;
+// //         }
+         
+// //         }
+// //       return dp[0] - 1;  
+// //     }
+// // };
+
+
+
+// class Solution {
+// public:
+//     bool isPali(const string &s) {
+//     return equal(s.begin(), s.begin() + s.size()/2, s.rbegin());
+// }
 
 //     int minCut(string s) {
-//       int n = s.size();
-//       vector<int> dp(n+1, 0);
-//         dp[n]= 0;
-//         for(int i=n-1 ; i>=0 ; i--){
-//         int mincost = INT_MAX;
-//         // if(dp[i] != -1) return dp[i];
-//         for(int j=i ; j <n ; j++){
-//                 if(ispalindrome(i, j, s)){
+//         int n = s.size();
+//         // Step 1: Precompute palindrome table
+//         // vector<vector<bool>> isPal(n, vector<bool>(n, false));
+//         // for (int len = 1; len <= n; len++) {
+//         //     for (int i = 0; i + len - 1 < n; i++) {
+//         //         int j = i + len - 1;
+//         //         if (s[i] == s[j]) {
+//         //             if (len <= 2) isPal[i][j] = true;
+//         //             else isPal[i][j] = isPal[i+1][j-1];
+//         //         }
+//         //     }
+//         // }
+
+//         // Step 2: DP for min cuts
+//         vector<int> dp(n+1, 0);
+//         dp[n] = 0;
+
+//         for (int i = n-1; i >= 0; i--) {
+//             int mincost = INT_MAX;
+//             for (int j = i; j < n; j++) {
+//                 if (isPal[i][j]) {
 //                     int cost = 1 + dp[j+1];
 //                     mincost = min(mincost, cost);
 //                 }
+//             }
 //             dp[i] = mincost;
 //         }
-         
-//         }
-//       return dp[0] - 1;  
+
+//         return dp[0] - 1;
 //     }
 // };
 
 
+#include <bits/stdc++.h>
+using namespace std;
 
 class Solution {
 public:
+    bool ispalindrome(int i, int j, const string &s) {
+        // Compare substring [i..j] with its reverse using STL
+        return equal(s.begin() + i, s.begin() + i + (j - i + 1)/2,
+                     s.rbegin() + (s.size() - 1 - j));
+    }
+
     int minCut(string s) {
         int n = s.size();
-        // Step 1: Precompute palindrome table
-        vector<vector<bool>> isPal(n, vector<bool>(n, false));
-        for (int len = 1; len <= n; len++) {
-            for (int i = 0; i + len - 1 < n; i++) {
-                int j = i + len - 1;
-                if (s[i] == s[j]) {
-                    if (len <= 2) isPal[i][j] = true;
-                    else isPal[i][j] = isPal[i+1][j-1];
-                }
-            }
-        }
-
-        // Step 2: DP for min cuts
-        vector<int> dp(n+1, 0);
+        vector<int> dp(n + 1, 0);
         dp[n] = 0;
 
-        for (int i = n-1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) {
             int mincost = INT_MAX;
             for (int j = i; j < n; j++) {
-                if (isPal[i][j]) {
-                    int cost = 1 + dp[j+1];
+                if (ispalindrome(i, j, s)) {
+                    int cost = 1 + dp[j + 1];
                     mincost = min(mincost, cost);
                 }
             }
             dp[i] = mincost;
         }
 
-        return dp[0] - 1;
+        return dp[0] - 1; // subtract 1 because last partition doesn’t need a cut
     }
 };
