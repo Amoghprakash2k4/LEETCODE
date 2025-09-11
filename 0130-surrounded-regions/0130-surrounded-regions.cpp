@@ -1,9 +1,9 @@
 class Solution {
 public:
     void dfs(vector<vector<int>> &vis, vector<vector<char>>& board, int row, int col ){
-            int delrow[] = {-1, 0, 1, 0};
-    int delcol[] = {0, 1, 0, -1};
-             int n = board.size();
+        int delrow[] = {-1, 0, 1, 0};
+        int delcol[] = {0, 1, 0, -1};
+        int n = board.size();
         int m = board[0].size();
         vis[row][col] = 1;
         for (int i = 0; i < 4; i++) {
