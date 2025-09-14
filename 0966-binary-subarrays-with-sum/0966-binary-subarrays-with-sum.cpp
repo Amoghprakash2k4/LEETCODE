@@ -1,18 +1,22 @@
 class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        unordered_map<int,int> freq;
-        freq[0] = 1; // base case: empty prefix
-        int sum = 0, ans = 0;
+        return atMost(nums, goal) - atMost(nums, goal - 1);
+    }
 
-        for(int x : nums) {
-            sum += x;  
-            if(freq.count(sum - goal)) {
-                ans += freq[sum - goal];
+    int atMost(vector<int>& nums, int goal) {
+        if (goal < 0) return 0; // no valid subarray
+        int left = 0, sum = 0, ans = 0;
+        for (int right = 0; right < nums.size(); right++) {
+            sum += nums[right];
+
+            while (sum > goal) {
+                sum -= nums[left];
+                left++;
             }
-            freq[sum]++;
-        }
 
+            ans += (right - left + 1);
+        }
         return ans;
     }
 };
