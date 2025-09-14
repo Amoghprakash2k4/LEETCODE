@@ -1,22 +1,24 @@
 class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        return atMost(nums, goal) - atMost(nums, goal - 1);
+        return f(nums, goal) - f(nums, goal-1);
+
     }
 
-    int atMost(vector<int>& nums, int goal) {
-        if (goal < 0) return 0; // no valid subarray
-        int left = 0, sum = 0, ans = 0;
-        for (int right = 0; right < nums.size(); right++) {
-            sum += nums[right];
+    int f(vector<int>& nums, int goal){
+        int left=0 , count =0, right=0;
+        int sum=0;
 
-            while (sum > goal) {
-                sum -= nums[left];
+        while(right <nums.size()){
+            sum+=nums[right];
+            while(sum > goal && left<=right){
+                sum-=nums[left];
                 left++;
             }
-
-            ans += (right - left + 1);
+            count+= right-left+1;
+            right++;
         }
-        return ans;
+        return count;
     }
+        
 };
