@@ -487,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1628-count-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Simulation
 |  |
@@ -787,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0820-find-eventual-safe-states) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Segment Tree
 |  |
 | ------- |
@@ -829,8 +831,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0820-find-eventual-safe-states) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
