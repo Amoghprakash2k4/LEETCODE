@@ -11,24 +11,24 @@
  */
 class Solution {
 public:
-    bool isValidBST(TreeNode* root) {
-        std::stack<TreeNode*> stk;
-        TreeNode* curr = root;
-        TreeNode* prev = nullptr;
+    TreeNode* prev = nullptr;
 
-        while (curr || !stk.empty()) {
-            while (curr) {
-                stk.push(curr);
-                curr = curr->left;
-            }
-            curr = stk.top();
-            stk.pop();
-            if (prev && curr->val <= prev->val) {
-                return false;
-            }
-            prev = curr;
-            curr = curr->right;
-        }
-        return true;
+    bool inorder(TreeNode* root) {
+        if (!root) return true;
+
+        // Left subtree
+        if (!inorder(root->left)) return false;
+
+        // Current node check
+        if (prev && root->val <= prev->val) return false;
+        prev = root;
+
+        // Right subtree
+        return inorder(root->right);
+    }
+
+    bool isValidBST(TreeNode* root) {
+        return inorder(root);
     }
 };
+
