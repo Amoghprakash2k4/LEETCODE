@@ -1,46 +1,74 @@
 class LRUCache {
-private:
-    int capacity;
-    list<pair<int, int>> cache; // {key, value}
-    unordered_map<int, list<pair<int, int>>::iterator> map;
+  public:
+    class node {
+      public:
+        int key;
+      int val;
+      node * next;
+      node * prev;
+      node(int _key, int _val) {
+        key = _key;
+        val = _val;
+      }
+    };
 
-public:
-    LRUCache(int capacity) {
-        this->capacity = capacity;
+  node * head = new node(-1, -1);
+  node * tail = new node(-1, -1);
+
+  int cap;
+  unordered_map < int, node * > m;
+
+  LRUCache(int capacity) {
+    cap = capacity;
+    head -> next = tail;
+    tail -> prev = head;
+  }
+
+  void addnode(node * newnode) {
+    node * temp = head -> next;
+    newnode -> next = temp;
+    newnode -> prev = head;
+    head -> next = newnode;
+    temp -> prev = newnode;
+  }
+
+  void deletenode(node * delnode) {
+    node * delprev = delnode -> prev;
+    node * delnext = delnode -> next;
+    delprev -> next = delnext;
+    delnext -> prev = delprev;
+  }
+
+  int get(int key_) {
+    if (m.find(key_) != m.end()) {
+      node * resnode = m[key_];
+      int res = resnode -> val;
+      m.erase(key_);
+      deletenode(resnode);
+      addnode(resnode);
+      m[key_] = head -> next;
+      return res;
     }
 
-    int get(int key) {
-        auto it = map.find(key);
-        if (it == map.end()) {
-            return -1; // not found
-        }
-        // Move the accessed node to the front
-        cache.splice(cache.begin(), cache, it->second);
-        return it->second->second;
+    return -1;
+  }
+
+  void put(int key_, int value) {
+    if (m.find(key_) != m.end()) {
+      node * existingnode = m[key_];
+      m.erase(key_);
+      deletenode(existingnode);
+    }
+    if (m.size() == cap) {
+      m.erase(tail -> prev -> key);
+      deletenode(tail -> prev);
     }
 
-    void put(int key, int value) {
-        auto it = map.find(key);
-        if (it != map.end()) {
-            // Update value
-            it->second->second = value;
-            // Move to front
-            cache.splice(cache.begin(), cache, it->second);
-        } else {
-            // Insert new node
-            cache.emplace_front(key, value);
-            map[key] = cache.begin();
-            if (cache.size() > capacity) {
-                // Remove least recently used
-                auto last = cache.end();
-                last--;
-                map.erase(last->first);
-                cache.pop_back();
-            }
-        }
-    }
+    addnode(new node(key_, value));
+    m[key_] = head -> next;
+  }
 };
-
+ 
 
 /**
  * Your LRUCache object will be instantiated and called as such:
