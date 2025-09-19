@@ -11,20 +11,15 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode* root, vector<int>& vals) {
-        if (!root) return;
-        inorder(root->left, vals);
-        vals.push_back(root->val);
-        inorder(root->right, vals);
+    bool tra(TreeNode* root, long long minVal, long long maxVal) {
+        if (!root) return true; // empty subtree is valid
+        if (root->val <= minVal || root->val >= maxVal) return false;
+
+        return tra(root->left, minVal, root->val) &&
+               tra(root->right, root->val, maxVal);
     }
 
     bool isValidBST(TreeNode* root) {
-        vector<int> vals;
-        inorder(root, vals);
-
-        for (int i = 1; i < vals.size(); i++) {
-            if (vals[i] <= vals[i-1]) return false;
-        }
-        return true;
+        return tra(root, LLONG_MIN, LLONG_MAX);
     }
 };
