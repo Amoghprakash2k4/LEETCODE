@@ -36,6 +36,6 @@ public:
             sum = (sum + arr[i] * left * right) % MOD;
         }
 
-        return (int)sum;
+        return sum;
     }
 };
