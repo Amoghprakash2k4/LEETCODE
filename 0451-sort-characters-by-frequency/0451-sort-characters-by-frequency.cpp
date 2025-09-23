@@ -14,7 +14,7 @@ public:
         });
 
         string result;
-        for (auto &p : freqVec) {
+        for (auto p : freqVec) {
             result += string(p.second, p.first);
         }
 
