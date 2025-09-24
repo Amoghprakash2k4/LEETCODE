@@ -1,41 +1,25 @@
+
 class Solution {
 public:
-    int sumSubarrayMins(vector<int>& arr) {
-        const int MOD = 1e9 + 7;
-        int n = arr.size();
-        vector<int> ple(n); // Previous Less Element indices
-        vector<int> nle(n); // Next Less Element indices
-        stack<int> st;
-
-        // Previous Less
-        for (int i = 0; i < n; i++) {
-            while (!st.empty() && arr[st.top()] > arr[i]) {
-                st.pop();
-            }
-            ple[i] = st.empty() ? -1 : st.top();
-            st.push(i);
+    int sumSubarrayMins(vector<int>& nums) {
+        int mod = 1e9 + 7, n = nums.size();
+        vector<int> left(n), right(n);
+        stack<int> s1, s2;
+        for (int i = 0; i < n; ++i) {
+            while (!s1.empty() && nums[s1.top()] > nums[i]) s1.pop();
+            left[i] = s1.empty() ? -1 : s1.top();
+            s1.push(i);
         }
-
-        // Clear stack for reuse
-        while (!st.empty()) st.pop();
-
-        // Next Less
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.empty() && arr[st.top()] >= arr[i]) {
-                st.pop();
-            }
-            nle[i] = st.empty() ? n : st.top();
-            st.push(i);
+        for (int i = n - 1; i >= 0; --i) {
+            while (!s2.empty() && nums[s2.top()] >= nums[i]) s2.pop();
+            right[i] = s2.empty() ? n : s2.top();
+            s2.push(i);
         }
-
-        // Compute result
-        long long sum = 0;
-        for (int i = 0; i < n; i++) {
-            long long left = i - ple[i];
-            long long right = nle[i] - i;
-            sum = (sum + arr[i] * left * right) % MOD;
+        long res = 0;
+        for (int i = 0; i < n; ++i) {
+            long l = i - left[i], r = right[i] - i;
+            res = (res + nums[i] * l * r) % mod;
         }
-
-        return sum;
+        return res;
     }
 };
