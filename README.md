@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0056-merge-intervals) |
 | [0059-spiral-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0064-minimum-path-sum) |
@@ -381,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0148-sort-list) |
