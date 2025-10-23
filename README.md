@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0162-find-peak-element) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0127-word-ladder) |
 | [0132-palindrome-partitioning-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0168-excel-sheet-column-title) |
 | [0205-isomorphic-strings](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0205-isomorphic-strings) |
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0139-word-break) |
 ## Sorting
 |  |
 | ------- |
@@ -487,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0132-palindrome-partitioning-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0152-maximum-product-subarray) |
 | [0174-dungeon-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -793,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1013-fibonacci-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1013-fibonacci-number) |
 ## Binary Search Tree
