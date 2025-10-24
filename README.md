@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0215-kth-largest-element-in-an-array) |
@@ -539,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
@@ -586,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0174-dungeon-game) |
+| [0200-number-of-islands](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0542-01-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0542-01-matrix) |
@@ -688,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -775,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0322-coin-change](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0322-coin-change) |
