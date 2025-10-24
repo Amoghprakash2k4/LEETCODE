@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0658-find-k-closest-elements) |
 | [0682-baseball-game](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0682-baseball-game) |
+| [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0735-asteroid-collision) |
@@ -543,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
@@ -594,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
@@ -705,6 +708,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -792,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
