@@ -548,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
@@ -714,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
@@ -803,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0753-open-the-lock) |
@@ -860,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0820-find-eventual-safe-states) |
