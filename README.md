@@ -241,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0061-rotate-list) |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0138-copy-list-with-random-pointer) |
