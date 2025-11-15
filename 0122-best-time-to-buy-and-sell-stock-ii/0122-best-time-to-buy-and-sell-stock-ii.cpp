@@ -1,43 +1,26 @@
 class Solution {
 public:
-    // int profit(vector<int>& prices, int n, int buy, int ind, vector<vector<int>>& dp) {
-    //     if (ind == n) return 0;
-
-    //     if (dp[ind][buy] != -1) return dp[ind][buy];
-
-    //     if (buy) {
-    //         // Either buy today or skip
-    //         dp[ind][buy] = max(-prices[ind] + profit(prices, n, 0, ind + 1, dp),
-    //                             profit(prices, n, 1, ind + 1, dp));
-    //     } else {
-    //         // Either sell today or skip
-    //         dp[ind][buy] = max(prices[ind] + profit(prices, n, 1, ind + 1, dp),
-    //                             profit(prices, n, 0, ind + 1, dp));
-    //     }
-
-    //     return dp[ind][buy];
-    // }
-
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
-        
-        // vector<vector<int>> dp(n+1, vector<int>(2, -1));  // dp[ind][buy]
-        vector<int> ahead(2,0), cur(2,0);
-        ahead[0]=0,ahead[1]=0;
-        for(int ind = n-1 ; ind >= 0 ; ind--){
-            // for(int buy=0 ; buy<=1 ; buy++){
-                // if (buy) {
-            // Either buy today or skip
-            cur[1] = max(-prices[ind] + ahead[0],
-                               ahead[1]);
-        // } else {
-            // Either sell today or skip
-            cur[0] = max(prices[ind] + ahead[1],
-                               ahead[0]);
-        // }
-        ahead = cur;
-            }
-        // }
-        return ahead[1];
+
+        // dp[ind][buy]: max profit from day ind with buy/sell state
+        vector<vector<int>> dp(n + 1, vector<int>(2, 0));
+
+        // Base case:
+        // dp[n][0] = dp[n][1] = 0 → after the last day, no profit can be made
+
+        // Fill table from back (bottom-up)
+        for (int ind = n - 1; ind >= 0; ind--) {
+            // Case 1: allowed to buy
+            dp[ind][1] = max(-prices[ind] + dp[ind + 1][0],  // buy today
+                              dp[ind + 1][1]);               // skip buying
+
+            // Case 2: currently holding, can sell
+            dp[ind][0] = max(prices[ind] + dp[ind + 1][1],   // sell today
+                              dp[ind + 1][0]);               // skip selling
+        }
+
+        // Start from day 0, allowed to buy → return dp[0][1]
+        return dp[0][1];
     }
 };
