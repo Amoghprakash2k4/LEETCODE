@@ -92,11 +92,15 @@ using namespace std;
 
 class Solution {
 public:
-    bool ispalindrome(int i, int j, const string &s) {
-        // Compare substring [i..j] with its reverse using STL
-        return equal(s.begin() + i, s.begin() + i + (j - i + 1)/2,
-                     s.rbegin() + (s.size() - 1 - j));
+bool ispalindrome(int i, int j, const string &s) {
+    while (i < j) {
+        if (s[i] != s[j])
+            return false;
+        i++;
+        j--;
     }
+    return true;
+}
 
     int minCut(string s) {
         int n = s.size();
