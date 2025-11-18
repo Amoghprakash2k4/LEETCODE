@@ -15,7 +15,7 @@ public:
         }
       }
 
-      int steps = 0;
+    //   int steps = 0;
       int delrow[] = {-1, 0, 1, 0};
       int delcol[] = {0, 1, 0, -1};
       while(!q.empty()){
