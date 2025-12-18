@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1628-count-submatrices-with-all-ones) |
 | [1646-kth-missing-positive-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1129-longest-string-chain) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Bit Manipulation
@@ -535,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1250-longest-common-subsequence) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1628-count-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/2090-number-of-ways-to-arrive-at-destination) |
