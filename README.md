@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1628-count-submatrices-with-all-ones) |
 | [1646-kth-missing-positive-number](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1966-frequency-of-the-most-frequent-element) |
