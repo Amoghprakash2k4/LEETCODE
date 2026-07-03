@@ -9,8 +9,6 @@ public:
             prev[arr[0]] = true;
 
         for (int i = 1; i < n; i++) {
-            cur[0] = true;
-
             for (int target = 1; target <= k; target++) {
 
                 bool notTake = prev[target];
