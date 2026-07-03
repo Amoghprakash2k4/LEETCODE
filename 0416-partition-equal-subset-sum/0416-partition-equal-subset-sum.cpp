@@ -1,44 +1,6 @@
 class Solution {
 public:
-    // Function to check if there exists a subset of 'arr' whose sum is equal to 'k'
     bool subsetSumToK(int n, int k, vector<int> &arr) {
-        // // Create a DP table: dp[i][target] means 
-        // // "Can we make 'target' sum using elements from 0 to i?"
-        // vector<vector<bool>> dp(n, vector<bool>(k+1, false));
-
-        // // Base case: It's always possible to make sum = 0 (by taking no elements)
-        // for(int i = 0; i < n; i++){
-        //     dp[i][0] = true;
-        // }
-
-        // // Base case: If the first element itself is <= target, mark that sum as possible
-        // if(arr[0] <= k)
-        //     dp[0][arr[0]] = true;
-
-        // // Fill the DP table for each element and target sum
-        // for(int ind = 1; ind < arr.size(); ind++) {
-        //     for(int target = 1; target <= k; target++) {
-
-        //         // Option 1: Don't include the current element
-        //         bool nottake = dp[ind - 1][target];
-
-        //         // Option 2: Include the current element (if it’s not bigger than target)
-        //         bool take = false;
-        //         if(arr[ind] <= target)
-        //             take = dp[ind - 1][target - arr[ind]];
-
-        //         // If either option works, then it's possible to make this sum
-        //         dp[ind][target] = take || nottake;
-        //     }
-        // }
-
-        // // Final answer: can we form sum = k using all n elements?
-        // return dp[n - 1][k];
-
-
-
-
-
         vector<bool> prev(k + 1, false), cur(k + 1, false);
 
         prev[0] = true;
@@ -59,10 +21,8 @@ public:
 
                 cur[j] = take || notTake;
             }
-
             prev = cur;
         }
-
         return prev[k];
     }
 
