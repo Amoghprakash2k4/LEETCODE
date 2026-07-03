@@ -11,15 +11,15 @@ public:
         for (int i = 1; i < n; i++) {
             cur[0] = true;
 
-            for (int j = 1; j <= k; j++) {
+            for (int target = 1; target <= k; target++) {
 
-                bool notTake = prev[j];
+                bool notTake = prev[target];
 
                 bool take = false;
-                if (arr[i] <= j)
-                    take = prev[j - arr[i]];
+                if (arr[i] <= target)
+                    take = prev[target - arr[i]];
 
-                cur[j] = take || notTake;
+                cur[target] = take || notTake;
             }
             prev = cur;
         }
