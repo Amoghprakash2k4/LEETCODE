@@ -20,27 +20,28 @@ public:
         // }
         // return dp[coins.size() - 1][amount] == INT_MAX ? -1 : dp[coins.size() - 1][amount];
 
-
-        vector<int> prev(amount+1, 0),curr(amount+1, 0);
-
-        for(int i =0 ; i<=amount ; i++){
-            if(i%coins[0] == 0) prev[i]=  i/coins[0];
-            else prev[i] = INT_MAX;
+        int n = coins.size();
+        vector<int>curr(amount+1, INT_MAX), prev(amount+1, INT_MAX);
+        for(int i=0 ; i<=amount ; i++){
+            if(i%coins[0] == 0) prev[i] = i/coins[0];
         }
 
-        for(int ind = 1 ; ind < coins.size(); ind++){
-            for(int t = 0 ; t<= amount ; t++){
-                int nottake =prev[t];
+        for(int ind=1 ; ind<n ; ind++){
+                // fill(curr.begin(), curr.end(), INT_MAX);
+                // curr[0] = 0;
+            for(int target = 0 ; target <= amount ; target++){
+                int nottake = prev[target];
                 int take = INT_MAX;
-                 if (coins[ind] <= t && curr[t - coins[ind]] != INT_MAX) 
-                        take = 1 + curr[t - coins[ind]];
+                if(coins[ind] <= target && curr[target - coins[ind]] != INT_MAX ){
+                    take = 1+curr[target-coins[ind]];
+                }
 
-                curr[t] = min(take,nottake);
+                curr[target] = min(take, nottake);
             }
             prev = curr;
         }
         int ans = prev[amount];
-        if(ans == INT_MAX) return -1;
+        if (ans == INT_MAX) return -1;
         else return ans;
     }
 };
