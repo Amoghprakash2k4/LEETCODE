@@ -4,36 +4,38 @@ using namespace std;
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        if (nums1.size() > nums2.size()) 
-            return findMedianSortedArrays(nums2, nums1);  // Ensure nums1 is smaller
+        if(nums2.size() < nums1.size()){
+            return findMedianSortedArrays(nums2, nums1);
+        }
 
         int x = nums1.size();
         int y = nums2.size();
-        int left = 0, right = x;
+        int left=0, right=x;
 
-        while (left <= right) {
-            int partitionX = left + (right - left) / 2;
-            int partitionY = (x + y + 1) / 2 - partitionX;
+        while(left <= right){
+            int px = left+(right-left)/2;
+            int py = (x+y+1)/2 - px;
 
-            int maxLeftX = (partitionX == 0) ? INT_MIN : nums1[partitionX - 1];
-            int minRightX = (partitionX == x) ? INT_MAX : nums1[partitionX];
+            int maxleftx = (px == 0) ? INT_MIN : nums1[px-1];
+            int minrightx = (px == x) ? INT_MAX : nums1[px];
 
-            int maxLeftY = (partitionY == 0) ? INT_MIN : nums2[partitionY - 1];
-            int minRightY = (partitionY == y) ? INT_MAX : nums2[partitionY];
+            int maxlefty = (py == 0) ? INT_MIN : nums2[py-1];
+            int minrighty = (py == y) ? INT_MAX : nums2[py];
 
-            if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
-                if ((x + y) % 2 == 0) {
-                    return (max(maxLeftX, maxLeftY) + min(minRightX, minRightY)) / 2.0;
-                } else {
-                    return max(maxLeftX, maxLeftY);
-                }
-            } else if (maxLeftX > minRightY) {
-                right = partitionX - 1;  // Move left
-            } else {
-                left = partitionX + 1;  // Move right
+            if(maxleftx <= minrighty && maxlefty <= minrightx){
+                if((x+y)%2 == 0)
+                return (max(maxleftx, maxlefty) + min(minrightx, minrighty)) / 2.0;
+                else
+                    return max(maxleftx, maxlefty);
+                
             }
-        }
+            else if(maxleftx > minrighty)
+                right = px-1;
+            else 
+                left = px+1;
 
-        throw invalid_argument("Input arrays are not sorted properly.");
+        }
+        return 0.0;
+
     }
 };
