@@ -1,21 +1,42 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        int low = 0, high = 0;
-        for (char c : s) {
-            if (c == '(') {
-                low++;
-                high++;
-            } else if (c == ')') {
-                low = max(0, low - 1);
-                high--;
-            } else { // c == '*'
-                low = max(0, low - 1);
-                high++;
-            }
 
-            if (high < 0) return false; // too many ')'
+        stack<int> open;
+        stack<int> star;
+
+        for (int i = 0; i < s.size(); i++) {
+
+            if (s[i] == '(') {
+                open.push(i);
+            }
+            else if (s[i] == '*') {
+                star.push(i);
+            }
+            else { // ')'
+
+                if (!open.empty()) {
+                    open.pop();
+                }
+                else if (!star.empty()) {
+                    star.pop();
+                }
+                else {
+                    return false;
+                }
+            }
         }
-        return low == 0;
+
+        while (!open.empty() && !star.empty()) {
+
+            // '*' must come after '('
+            if (open.top() > star.top())
+                return false;
+
+            open.pop();
+            star.pop();
+        }
+
+        return open.empty();
     }
 };
