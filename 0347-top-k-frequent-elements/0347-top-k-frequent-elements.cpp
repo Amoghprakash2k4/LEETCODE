@@ -1,42 +1,29 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-    // unordered_map<int,int> freq;
-    // for(int num : nums) {
-    //     freq[num]++;
-    // }
 
-    // vector<pair<int,int>> freqVec(freq.begin(), freq.end());
+        unordered_map<int, int> freq;
 
-    // sort(freqVec.begin(), freqVec.end(), [](auto& a, auto& b){
-    //     return a.second > b.second; // sort by frequency descending
-    // });
-
-    // vector<int> result;
-    // for(int i=0; i<k; i++) {
-    //     result.push_back(freqVec[i].first);
-    // }
-    // return result;
-    unordered_map<int,int> freq;
-    for(int num : nums) {
-        freq[num]++;
-    }
-
-    priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> minHeap;
-
-    for(auto& [num, count] : freq) {
-        minHeap.push({count, num});
-        if(minHeap.size() > k) {
-            minHeap.pop();
+        for (int num : nums) {
+            freq[num]++;
         }
-    }
 
-    vector<int> result;
-    while(!minHeap.empty()) {
-        result.push_back(minHeap.top().second);
-        minHeap.pop();
-    }
-    return result;
-}
+        vector<pair<int, int>> vec;
 
+        for (auto it : freq) {
+            vec.push_back({it.second, it.first});
+        }
+
+        sort(vec.begin(), vec.end(), [](pair<int,int>& a, pair<int,int>& b) {
+            return a.first > b.first;
+        });
+
+        vector<int> ans;
+
+        for (int i = 0; i < k; i++) {
+            ans.push_back(vec[i].second);
+        }
+
+        return ans;
+    }
 };
