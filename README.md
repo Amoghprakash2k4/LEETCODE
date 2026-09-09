@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0967-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0994-rotting-oranges) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
@@ -633,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0967-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -848,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0994-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/0994-rotting-oranges) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Amoghprakash2k4/LEETCODE/tree/master/1073-number-of-enclaves) |
