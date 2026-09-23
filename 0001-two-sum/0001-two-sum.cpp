@@ -11,7 +11,8 @@ public:
             if(mp.find(comp) != mp.end()){
                 return{mp[comp], i};
             }
-            mp[num] = i++;
+            mp[num] = i;
+            i++;
         }
         return {};
     }
